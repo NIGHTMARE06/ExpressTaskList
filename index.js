@@ -25,6 +25,9 @@ app.use(bodyParser.urlencoded({
 // Routes
 app.use(routes)
 
+//Static Files
+app.use(express.static(path.join(__dirname,'public')))
+
 // Listen
 app.listen(app.get('port'), () => {
   console.log(`The server is running on port:${app.get('port')}`)

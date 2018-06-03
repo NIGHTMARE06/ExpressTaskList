@@ -1,0 +1,38 @@
+body {
+  font-family: sans;
+  background-color: #f0f0f0;
+  color: #1d1d1d;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1em;
+  background-color: #2a2a2a;
+}
+
+.nav ul li a {
+  padding: 1em;
+  font-size: 1em;
+  transition: 2s transform;
+  color: white;
+  background-color: #2a2a2a;
+  transition: 1.5s;
+}
+
+.nav ul li a:hover {
+  color: #3482eb;
+}
+
+.list li::before {
+  content: "~";
+}
