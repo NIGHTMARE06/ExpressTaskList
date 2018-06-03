@@ -1,0 +1,18 @@
+{
+  "name": "express-task-list",
+  "version": "1.0.0",
+  "description": "A task list with Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "N1ght_m4re",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  }
+}
